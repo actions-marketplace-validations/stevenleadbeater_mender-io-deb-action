@@ -20,6 +20,6 @@ mender-cli login \
   --password "$INPUT_PASSWORD"
 
 mender-cli artifacts \
-  --server https://mender.albeeconnect.co.uk \
+  --server "$INPUT_SERVER_ADDRESS" \
   upload \
   "$INPUT_ARTIFACT_NAME".mender
